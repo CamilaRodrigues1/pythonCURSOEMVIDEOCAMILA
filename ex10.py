@@ -1,0 +1,5 @@
+print('=-'*20)
+print('CONVERSOR DE MOEDAS')
+print('=-'*20)
+num = float(input('Quanto dinheiro você tem? '))
+print(f'Com R${num} você consegui comprar U${num/4.88:.2f}.')
